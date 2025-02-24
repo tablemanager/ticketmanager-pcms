@@ -1,0 +1,33 @@
+.sambtn {
+    background-color: #A7D0B7;
+    border: none;
+    color: white;
+    padding: 7px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 4px 2px;
+    cursor: pointer;
+	width: 100%;
+}
+
+.savbtn {
+    background-color: #3E5E46;
+    border: none;
+    color: white;
+    padding: 7px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 4px 2px;
+    cursor: pointer;
+	width: 100%
+}
+
+.stripetable tr:nth-child(even) {background-color: #E2E8DE;}
+.stripetable th {
+    background-color: #95B29C;
+    color: white;
+}

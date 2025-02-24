@@ -1,0 +1,29 @@
+.ubtn{
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 15px;
+  color: white;
+  padding: 5px 10px 5px 10px;
+  margin: 3px;
+  display: inline-block;
+  border-radius: 5px;
+  transition: all 0.1s;
+  text-shadow: 0px -2px rgba(0,0,0,0.44);
+}
+.ubtn:hover{
+  text-decoration: none;
+  color: white;
+}
+
+.ubtn:active{
+  transform: translateY(3px);
+}
+
+.ubtn.use{
+  background-color: #005580;
+  border-bottom: 5px solid #0d3349;
+}
+.ubtn.unuse{
+  background-color: #B94A48;
+  border-bottom: 5px solid #a9302a;
+}

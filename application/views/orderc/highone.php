@@ -1,0 +1,1 @@
+<iframe src="https://high1resort.sparo.cc/item/high1_item_list.php" style="display: block; width: 100vw; height: 100vh;"></iframe>

@@ -1,0 +1,120 @@
+.top_form{
+	 margin: auto;
+    width: 50%;
+	text-align: center;
+}
+
+/*라디오버튼*/
+[type="radio"]:checked,
+[type="radio"]:not(:checked) {
+    position: absolute;
+    left: -9999px;
+}
+[type="radio"]:checked + label,
+[type="radio"]:not(:checked) + label
+{
+    position: relative;
+    padding-left: 28px;
+    cursor: pointer;
+    line-height: 20px;
+    display: inline-block;
+    color: #666;
+}
+[type="radio"]:checked + label:before,
+[type="radio"]:not(:checked) + label:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 18px;
+    height: 18px;
+    border: 1px solid #ddd;
+    border-radius: 100%;
+    background: #fff;
+}
+[type="radio"]:checked + label:after,
+[type="radio"]:not(:checked) + label:after {
+    content: '';
+    width: 12px;
+    height: 12px;
+    background: #FEAC97 !important;
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    border-radius: 100%;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+[type="radio"]:not(:checked) + label:after {
+    opacity: 0;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+}
+[type="radio"]:checked + label:after {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+
+/*테이블*/
+.table {
+	border-collapse: collapse;
+	font-size: 13px;
+}
+.table th, 
+.table td {
+	padding: 7px 17px;
+	text-align: center;
+
+}
+.table thead th {
+	background-color: #84AC67;
+	color: #FFFFFF;
+	border-color: #84AC67 !important;
+	text-transform: uppercase;
+}
+.table tbody tr:hover td {
+	background-color: #F0F2E7;
+	transition: all .2s;
+
+}
+
+/*검색버튼*/
+.button {
+    background-color: #ED5B46;
+    border: none;
+    color: white;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 4px 2px;
+    cursor: pointer;
+	width: 50%;
+}
+
+/*초기화버튼*/
+.btn {
+    background-color: #F8CED2 !important;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    cursor: pointer;
+}
+
+.btnone {
+   background-color: #84AC67 !important;
+    border: 2px solid #FFFFFF;
+    color: white;
+    padding: 2px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    cursor: pointer;
+}

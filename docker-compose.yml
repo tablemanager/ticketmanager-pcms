@@ -1,0 +1,11 @@
+version: '3.8'
+services:
+  app:
+    build: .
+    ports:
+      - "80:80"
+    volumes:
+      - ./public_html:/var/www/html/public_html
+      - ./application:/var/www/html/application
+      - ./system:/var/www/html/system
+      - ./sync_script:/var/www/html/sync_script
